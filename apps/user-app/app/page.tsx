@@ -8,5 +8,7 @@ export default async function Page() {
     redirect('/dashboard')
   } else {
     redirect('/api/auth/signin')
+
+    
   }
 }
